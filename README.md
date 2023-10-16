@@ -1,5 +1,5 @@
 ## Команды
-#### Запуск сервера:
+### Запуск сервера:
 npm start - запуск сервера на nodemon
 Инициализация sequelize:
 npx sequelize init - инициализация sequelize
