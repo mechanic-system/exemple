@@ -23,7 +23,8 @@ npx sequelize db:migrate:undo - отмена последней миграции
 npx sequelize db:migrate:undo:all - отмена всех миграций
 npx sequelize-cli db:migrate:undo:all --name 1-user - отмена миграции с именем 1-user
 npx sequelize-cli db:migrate:undo:all --name 2-contact - отмена миграции с именем 2-contact
-### Примеры REST API
+
+## Примеры REST API
 ### Получение списка всех книг:
 HTTP метод: GET
 Endpoint: /books
