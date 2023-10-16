@@ -54,9 +54,9 @@ Endpoint: /books/{bookId} <br>
 Ответ: обновлённая информация о книге. <br>
 
 ### Удаление книги по её ID:
-HTTP метод: DELETE
-Endpoint: /books/{bookId}
-Ответ: статус успешного удаления.
+HTTP метод: DELETE <br>
+Endpoint: /books/{bookId} <br>
+Ответ: статус успешного удаления. <br>
 
 ### Получение списка книг определённого автора:
 HTTP метод: GET <br>
