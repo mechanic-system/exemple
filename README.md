@@ -26,9 +26,9 @@ npx sequelize-cli db:migrate:undo:all --name 2-contact - отмена мигра
 
 ## Примеры REST API
 ### Получение списка всех книг:
-HTTP метод: GET \n
-Endpoint: /books \n
-Ответ: массив книг. \n
+HTTP метод: GET
+Endpoint: /books 
+Ответ: массив книг. 
 
 ### Получение информации о конкретной книге по её ID:
 HTTP метод: GET
