@@ -7,9 +7,9 @@ npx sequelize init - инициализация sequelize
 npx sequelize db:create - создание БД. Название берется из файла конфигурации config/config.json
 ### Создание моделей:
 USER <br>
-npx sequelize model:generate --name User --attributes firstName:string,lastName:string,email:string
+npx sequelize model:generate --name User --attributes firstName:string,lastName:string,email:string <br>
 CONTACT <br>
-npx sequelize model:generate --name Contact --attributes name:string,phone:string,userId:integer
+npx sequelize model:generate --name Contact --attributes name:string,phone:string,userId:integer <br>
 ### Создание миграций:
 npx sequelize migration:generate --name create-users - создание миграции для таблицы users <br>
 npx sequelize migration:generate --name create-contacts - создание миграции для таблицы contacts <br>
