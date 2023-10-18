@@ -6,23 +6,23 @@ npx sequelize init - инициализация sequelize
 ### Создание БД:
 npx sequelize db:create - создание БД. Название берется из файла конфигурации config/config.json
 ### Создание моделей:
-USER
+USER <br>
 npx sequelize model:generate --name User --attributes firstName:string,lastName:string,email:string
-CONTACT
+CONTACT <br>
 npx sequelize model:generate --name Contact --attributes name:string,phone:string,userId:integer
 ### Создание миграций:
-npx sequelize migration:generate --name create-users - создание миграции для таблицы users
-npx sequelize migration:generate --name create-contacts - создание миграции для таблицы contacts
-npx sequelize db:migrate - применение миграций для всех моделей
+npx sequelize migration:generate --name create-users - создание миграции для таблицы users <br>
+npx sequelize migration:generate --name create-contacts - создание миграции для таблицы contacts <br>
+npx sequelize db:migrate - применение миграций для всех моделей <br>
 ### Создание сидов:
-npx sequelize seed:generate --name demo-user - создание сида для таблицы users
-npx sequelize seed:generate --name demo-contacts - создание сида для таблицы contacts
-npx sequelize db:seed:all - применение сидов для всех моделей
+npx sequelize seed:generate --name demo-user - создание сида для таблицы users <br>
+npx sequelize seed:generate --name demo-contacts - создание сида для таблицы contacts <br>
+npx sequelize db:seed:all - применение сидов для всех моделей <br>
 ### Отмена миграций:
-npx sequelize db:migrate:undo - отмена последней миграции
-npx sequelize db:migrate:undo:all - отмена всех миграций
-npx sequelize-cli db:migrate:undo:all --name 1-user - отмена миграции с именем 1-user
-npx sequelize-cli db:migrate:undo:all --name 2-contact - отмена миграции с именем 2-contact
+npx sequelize db:migrate:undo - отмена последней миграции <br>
+npx sequelize db:migrate:undo:all - отмена всех миграций <br>
+npx sequelize-cli db:migrate:undo:all --name 1-user - отмена миграции с именем 1-user <br>
+npx sequelize-cli db:migrate:undo:all --name 2-contact - отмена миграции с именем 2-contact <br>
 
 ## Примеры REST API
 ### Получение списка всех книг:
