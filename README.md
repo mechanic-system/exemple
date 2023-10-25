@@ -83,3 +83,5 @@ Endpoint: /books/search?q=ключевое_слово <br>
 HTTP метод: GET <br>
 Endpoint: /books?year=2023 <br>
 Ответ: массив книг, опубликованных в 2023 году. <br>
+# Install Vite + React
+npm create vite@latest client react-ts
